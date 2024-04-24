@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ciclo-evento </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+
+            <div class="imgBx" style="--i:1;" data-id="content1">
+                <i class="fa-solid fa-biohazard"></i>
+            </div>
+
+            <div class="imgBx" style="--i:2;" data-id="content2">
+                <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+
+            <div class="imgBx" style="--i:3;" data-id="content3">
+                <i class="fa-solid fa-network-wired"></i>
+            </div>
+
+            <div class="imgBx" style="--i:4;" data-id="content4">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+
+            <div class="imgBx" style="--i:5;" data-id="content5">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+
+            <div class="imgBx active" style="--i:6;" data-id="content6">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- Caso queira adcionar mais uma box lembrar de alterar o """.container .icon .imgBx""" no css-->
+        </div>
+
+        <div class="content">
+            <div class="contentBx" id="content1">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                            Biossegurança
+                        </div>
+                        <div class="card-text">
+                            O objetivo principal da biossegurança é criar um ambiente de trabalho onde se promova a 
+                            contenção do risco de exposição a agentes potencialmente nocivos ao trabalhador,
+                            pacientes e meio ambiente, de modo que este risco seja minimizado ou eliminado.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx active" id="content2">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                            Avalie os Riscos
+                        </div>
+                        <div class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx active" id="content3">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                            Estratégia de Controle de Risco
+                        </div>
+                        <div class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx active" id="content4">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                            Implementar Controle de Risco
+                        </div>
+                        <div class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx active" id="content5" onclick="clik">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                            Riscos e Medidas de Controle de Risco
+                        </div>
+                        <div class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBx active" id="content6">
+                <div class="card">
+                    <div class="textBx">
+                        <div class="card-title">
+                           Colete informações 
+                        </div>
+                        <div class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
